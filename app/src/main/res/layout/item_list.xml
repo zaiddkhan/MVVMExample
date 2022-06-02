@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="8dp"
+    android:elevation="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:backgroundTint="@color/black"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="ABDC"/>
+
+        <TextView
+            android:id="@+id/email_tv"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="ABDC"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+</layout>
